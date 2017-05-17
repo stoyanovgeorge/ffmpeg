@@ -29,9 +29,12 @@ echo "All required libs had been installed"
 echo "Start compilation of ffmpeg"
 sh $PWD/scripts/ffmpeg.sh
 echo "FFMPEG compilation has finished"
-echo "The system will reboot in 10 seconds"
-sudo reboot
 
 # Removing the $HOME/install directory (optional)
 
 rm -rf $HOME/install
+
+# Reboot of the system
+
+echo "The system will reboot in 10 seconds"
+sudo reboot
