@@ -103,6 +103,10 @@ sudo make install
 make distclean
 ```
 
+### Bugs and Missing Features
+
+Please use [Github Issues](https://github.com/stoyanovgeorge/ffmpeg/issues "Github Issues") in case you spot a bug or have an idea how to optimize the scripts. 
+
 ### External Links
 
 * [FFMPEG Generic Compilation Guide](https://trac.ffmpeg.org/wiki/CompilationGuide/Generic "FFMPEG Generic Compilation Guide")<br \>
