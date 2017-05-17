@@ -25,4 +25,4 @@ echo "Start compilation of ffmpeg"
 sh $HOME/scripts/ffmpeg.sh
 echo "FFMPEG compilation has finished"
 echo "The system will reboot in 10 seconds"
-#sudo reboot
+sudo reboot
