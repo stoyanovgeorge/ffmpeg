@@ -44,11 +44,14 @@ The following libraries are also installed from source:
 
 ### Usage Examples
 
-Please run the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") script and it will take care of installing the latest version of FFMPEG and its most popular libraries from scratch. 
+Please run the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") script `sh compilation.sh` and it will take care of installing the latest version of FFMPEG and its most popular libraries from scratch presuming that you have cloned this repository.
+
+In case you want to automate the installation of GIT and run the compilation script you can execute: 
 
 ```
-sh compilation.sh
+sudo apt update && sudo apt install git -y && git clone https://github.com/stoyanovgeorge/ffmpeg.git && cd ffmpeg && sh compilation.sh
 ```
+
 If you want to omit the installation of some of these libraries, please comment the line in the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") script and also remove the parameter in the [ffmpeg.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/scripts/ffmpeg.sh "ffmpeg.sh") script. 
 
 For example if you want to remove Kvazaar, the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") will look like: 
