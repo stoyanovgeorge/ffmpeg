@@ -2,12 +2,12 @@
 
 Automated scripts for compilation of the latest FFMPEG and its most popular librarires for Ubuntu based systems. The script is tested and working on Ubuntu 16.04 LTS Xenial Xerus.
 
-```
+``
 ffmpeg version N-86098-g3fefaea Copyright (c) 2000-2017 the FFmpeg developers
 built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 20160609
 configuration: --enable-gpl --enable-ladspa --enable-libpulse --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-nonfree --enable-libkvazaar --disable-ffplay --enable-libopenjpeg --enable-libwebp --enable-libxvid --enable-libvidstab --enable-libopenh264 --enable-zlib --enable-openssl
 libavutil      55. 63.100 / 55. 63.100
-libavcodec     57. 96.101 / 57. 96.101
+lbavcodec     57. 96.101 / 57. 96.101
 libavformat    57. 72.101 / 57. 72.101
 libavdevice    57.  7.100 / 57.  7.100
 libavfilter     6. 89.101 /  6. 89.101
@@ -15,9 +15,9 @@ libavresample   3.  6.  0 /  3.  6.  0
 libswscale      4.  7.101 /  4.  7.101
 libswresample   2.  8.100 /  2.  8.100
 libpostproc    54.  6.100 / 54.  6.100
-```
+``
 
-The following libraries are also installed from source:
+The following Libraries are also installed from source: 
 1. Video Codecs:
         * Dirac
         * Kvazaar
