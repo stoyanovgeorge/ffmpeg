@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir $HOME/install
+#mkdir $HOME/install
 cd $HOME/install
 git clone https://github.com/FFmpeg/FFmpeg.git
 cd $HOME/install/FFmpeg
