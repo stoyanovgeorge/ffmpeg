@@ -48,6 +48,7 @@ Please run the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/ma
 
 ```
 sh compilation.sh
+```
 If you want to omit the installation of some of these libraries, please comment the line in the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") script and also remove the parameter in the [ffmpeg.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/scripts/ffmpeg.sh "ffmpeg.sh") script. 
 
 For example if you want to remove Kvazaar, the [compilation.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/compilation.sh "compilation.sh") will look like: 
