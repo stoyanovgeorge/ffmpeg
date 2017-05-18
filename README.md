@@ -58,32 +58,35 @@ For example if you want to remove Kvazaar, the [compilation.sh](https://github.c
 ```
 #!/bin/bash
 
+PWD=`pwd`
+
+# Creating of install directory where we will download all the source packages
 mkdir $HOME/install
-cd $HOME/install
+
+# Start executing the scripts
+
 echo "System Update is started..."
-sh $HOME/scripts/update_system.sh
+sh $PWD/scripts/update_system.sh
 echo "Update of the system had finished"
 echo "Start Compilation of the libs needed for ffmpeg..."
-#sh $HOME/scripts/kvazaar.sh
-sh $HOME/scripts/libfdk-aac.sh
-sh $HOME/scripts/ogg.sh
-sh $HOME/scripts/libvorbis.sh
-sh $HOME/scripts/libopenjpeg.sh 
-sh $HOME/scripts/libmp3lame.sh
-sh $HOME/scripts/libopus.sh
-sh $HOME/scripts/libtheora.sh
-sh $HOME/scripts/libwebp.sh
-sh $HOME/scripts/libvpx.sh
-sh $HOME/scripts/libx264.sh
-sh $HOME/scripts/libx265.sh
-sh $HOME/scripts/vidstab.sh
-sh $HOME/scripts/openh264.sh
+#sh $PWD/scripts/kvazaar.sh
+sh $PWD/scripts/libfdk-aac.sh
+sh $PWD/scripts/ogg.sh
+sh $PWD/scripts/libvorbis.sh
+sh $PWD/scripts/libopenjpeg.sh
+sh $PWD/scripts/libmp3lame.sh
+sh $PWD/scripts/libopus.sh
+sh $PWD/scripts/libtheora.sh
+sh $PWD/scripts/libwebp.sh
+sh $PWD/scripts/libvpx.sh
+sh $PWD/scripts/libx264.sh
+sh $PWD/scripts/libx265.sh
+sh $PWD/scripts/vidstab.sh
+sh $PWD/scripts/openh264.sh
 echo "All required libs had been installed"
 echo "Start compilation of ffmpeg"
-sh $HOME/scripts/ffmpeg.sh
+sh $PWD/scripts/ffmpeg.sh
 echo "FFMPEG compilation has finished"
-echo "The system will reboot in 10 seconds"
-sudo reboot
 ```
 
 And in the [ffmpeg.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/scripts/ffmpeg.sh "ffmpeg.sh") script you need to remove `--enable-libkvazaar` option as shown below:
