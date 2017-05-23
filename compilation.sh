@@ -11,6 +11,7 @@ echo "System Update is started..."
 sh $PWD/scripts/update_system.sh
 echo "Update of the system had finished"
 echo "Start Compilation of the libs needed for ffmpeg..."
+sh $PWD/scripts/nasm.sh
 sh $PWD/scripts/kvazaar.sh
 sh $PWD/scripts/libfdk-aac.sh
 sh $PWD/scripts/ogg.sh
