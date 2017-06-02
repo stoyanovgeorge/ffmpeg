@@ -2,8 +2,8 @@
 
 #mkdir $HOME/install
 cd $HOME/install
-git clone https://github.com/FFmpeg/FFmpeg.git
-cd $HOME/install/FFmpeg
+git clone git://source.ffmpeg.org/ffmpeg
+cd $HOME/install/ffmpeg
 ./configure \
 --enable-gpl \
 --enable-ladspa \
