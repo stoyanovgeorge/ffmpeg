@@ -1,5 +1,7 @@
 # Automated FFMPEG Compilation script for Ubuntu
 
+Before Proceeding with the FFMPEG compilation script, please make sure the check the [Wiki](https://github.com/stoyanovgeorge/ffmpeg/wiki "Wiki") section for different usage examples of FFMPEG. 
+
 Automated scripts for compilation of the latest [FFMPEG](https://ffmpeg.org/ "FFMPEG Official Page") and its most popular librarires for Ubuntu based systems. The script is tested and working on Ubuntu 16.04 LTS Xenial Xerus.
 
 ```
