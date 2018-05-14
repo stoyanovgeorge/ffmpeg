@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Start the system update..."
-sudo apt update
-sudo apt upgrade -y
-sudo apt dist-upgrade -y
+sudo apt update &> /dev/null
+sudo apt upgrade -y &> /dev/null
+sudo apt dist-upgrade -y &> /dev/null
 sudo apt install \
 autoconf \
 automake \
@@ -31,7 +31,7 @@ libspeex-dev \
 python-dev \
 python-pip \
 python-tk \
-libssl-dev -y
-sudo apt clean -y
-sudo apt autoremove -y
+libssl-dev -y &> /dev/null
+sudo apt clean -y &> /dev/null
+sudo apt autoremove -y &> /dev/null
 echo "End of the system update"
