@@ -23,7 +23,9 @@ sudo apt install \
 	libfontconfig1 \
 	cmake \
 	libsdl2-2.0-0 \
-	libasound2 \ 
+        libasound2 \
+	libasound2-data \
+	libasound2-plugins \
 	fontconfig \
 	libaacs0 \
 	libass9 \
@@ -164,7 +166,6 @@ sudo apt install \
 	vdpau-driver-all \
 	x11-common \
 	i965-va-driver-shaders \
-	libasound2-plugins \
 	alsa-utils \
 	libbluray-bdj \
 	firmware-crystalhd \
@@ -181,7 +182,7 @@ sudo apt install \
 	speex \
 	libvdpau-va-gl1 \
 	nvidia-vdpau-driver \
-	# old
+	ladspa-sdk \
 	libsoxr-dev \
 	libspeex-dev \
 	python-dev \
