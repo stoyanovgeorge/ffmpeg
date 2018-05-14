@@ -2,7 +2,7 @@
 
 PWD=`pwd`
 
-# Creating of install directory where we will download all the source packages
+# Creating of install, bin and package config directories where we will download all the source packages, install them and link the package config
 mkdir -p $HOME/ffmpeg/bin $HOME/ffmpeg/install $HOME/ffmpeg/lib/pkgconfig
 
 # Start executing the scripts
