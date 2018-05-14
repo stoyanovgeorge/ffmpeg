@@ -24,7 +24,6 @@ sudo apt install \
 	cmake \
 	libsdl2-2.0-0 \
 	libasound2 \ 
-	libasound2-data \
 	fontconfig \
 	libaacs0 \
 	libass9 \
@@ -183,7 +182,6 @@ sudo apt install \
 	libvdpau-va-gl1 \
 	nvidia-vdpau-driver \
 	# old
-	ladspa-sdk \
 	libsoxr-dev \
 	libspeex-dev \
 	python-dev \
