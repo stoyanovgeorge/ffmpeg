@@ -3,7 +3,7 @@
 PWD=`pwd`
 
 # Creating of install, bin and package config directories where we will download all the source packages, install them and link the package config
-mkdir -p $HOME/ffmpeg/bin $HOME/ffmpeg/install $HOME/ffmpeg/lib/pkgconfig
+mkdir -p $HOME/ffmpeg/bin $HOME/ffmpeg/lib/pkgconfig $HOME/ffmpeg/install/logs
 
 # Start executing the scripts
 
@@ -11,21 +11,23 @@ echo "System Update is started..."
 sh $PWD/scripts/update_system.sh
 echo "Update of the system had finished"
 echo "Start Compilation of the libs needed for ffmpeg..."
-sh $PWD/scripts/nasm.sh
-sh $PWD/scripts/kvazaar.sh
-sh $PWD/scripts/libfdk-aac.sh
-sh $PWD/scripts/ogg.sh
-sh $PWD/scripts/libvorbis.sh
-sh $PWD/scripts/libopenjpeg.sh 
-sh $PWD/scripts/libmp3lame.sh
-sh $PWD/scripts/libopus.sh
-sh $PWD/scripts/libtheora.sh
-sh $PWD/scripts/libwebp.sh
-sh $PWD/scripts/libvpx.sh
-sh $PWD/scripts/libx264.sh
-sh $PWD/scripts/libx265.sh
-sh $PWD/scripts/vidstab.sh
-sh $PWD/scripts/openh264.sh
+sh $PWD/scripts/nasm.sh 2> $HOME/ffmpeg/install/logs/nasm.log
+sh $PWD/scripts/kvazaar.sh 2> $HOME/ffmpeg/install/logs/kvazaar.log
+sh $PWD/scripts/libfdk-aac.sh 2> $HOME/ffmpeg/install/logs/libfdk-aac.log
+sh $PWD/scripts/ogg.sh 2> $HOME/ffmpeg/install/logs/ogg.log
+sh $PWD/scripts/libvorbis.sh 2> $HOME/ffmpeg/install/logs/libvorbis.log
+sh $PWD/scripts/libopenjpeg.sh 2> $HOME/ffmpeg/install/logs/libopenjpeg.log
+sh $PWD/scripts/libmp3lame.sh 2> $HOME/ffmpeg/install/logs/libmp3lame.log
+sh $PWD/scripts/libopus.sh 2> $HOME/ffmpeg/install/logs/libopus.log
+sh $PWD/scripts/libtheora.sh 2> $HOME/ffmpeg/install/logs/libtheora.log
+sh $PWD/scripts/libwebp.sh 2> $HOME/ffmpeg/install/logs/libwebp.log
+sh $PWD/scripts/libvpx.sh 2> $HOME/ffmpeg/install/logs/libvpx.log
+sh $PWD/scripts/libx264.sh 2> $HOME/ffmpeg/install/logs/libx264.log
+sh $PWD/scripts/libx265.sh 2> $HOME/ffmpeg/install/logs/libx265.log
+sh $PWD/scripts/vidstab.sh 2> $HOME/ffmpeg/install/logs/vidstab.log
+sh $PWD/scripts/openh264.sh 2> $HOME/ffmpeg/install/logs/openh264.log
+sh $PWD/scripts/libaom.sh 2> $HOME/ffmpeg/install/logs/libaom.log
+sh $PWD/scripts/libsrt.sh 2> $HOME/ffmpeg/install/logs/libsrt.log
 echo "All required libs had been installed"
 echo "Start compilation of ffmpeg"
 sh $PWD/scripts/ffmpeg.sh

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/install
-git clone git://source.ffmpeg.org/ffmpeg
-cd $HOME/install/ffmpeg
+cd $HOME/ffmpeg/install
+wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
+tar xvfz ffmpeg-4.0.tar.bz2
+cd $HOME/ffmpeg/install/ffmpeg-4.0
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure \
 	--prefix="$HOME/ffmpeg" \
