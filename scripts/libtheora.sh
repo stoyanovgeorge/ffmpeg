@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone https://github.com/Distrotech/libtheora.git
-cd $HOME/install/libtheora
+cd libtheora
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure --enable-static --prefix="$HOME/ffmpeg/install" --bindir="$HOME/ffmpeg/bin"
 make

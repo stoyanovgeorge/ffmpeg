@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone https://github.com/webmproject/libwebp.git
-cd $HOME/install/libwebp
+cd libwebp
 ./autogen.sh
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure --enable-static --prefix="$HOME/ffmpeg/install" --bindir="$HOME/ffmpeg/bin"
