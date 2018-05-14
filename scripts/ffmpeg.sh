@@ -3,7 +3,7 @@
 cd $HOME/ffmpeg/downloads
 wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
 tar xvfz ffmpeg-4.0.tar.bz2
-cd $HOME/ffmpeg/install/ffmpeg-4.0
+cd ffmpeg-4.0
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure \
 	--prefix="$HOME/ffmpeg" \
