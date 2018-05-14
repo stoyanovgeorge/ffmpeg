@@ -1,11 +1,12 @@
 #!/bin/bash
 
 #mkdir $HOME/install
-cd $HOME/install/
+cd $HOME/ffmpeg/install/
 git clone https://github.com/mstorsjo/fdk-aac.git
-cd $HOME/install/fdk-aac
+cd fdk-aac
 ./autogen.sh
-./configure --enable-share --enable-static
+PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
+./configure --enable-static --prefix="$HOME/ffmpeg/install" --bindir="$HOME/ffmpeg/bin" --enable-pic
 make
 sudo make install
 make distclean
