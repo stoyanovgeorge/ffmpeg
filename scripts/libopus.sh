@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone git://git.opus-codec.org/opus.git
-cd $HOME/install/opus
+cd opus
 ./autogen.sh
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 make
