@@ -11,9 +11,45 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 	--extra-cflags="-I$HOME/ffmpeg/include" \
 	--extra-ldflags="-L$HOME/ffmpeg/lib" \
 	--extra-libs="-lpthread -lm" \
-	--bindir="$HOME/ffmpeg/bin"
+	--bindir="$HOME/ffmpeg/bin" \
+	--toolchain=hardened \
 	--enable-gpl \
-	--enable-nonfree \
+	--disable-stripping \
+	--enable-avisynth \
+	--enable-gnutls \
+	--enable-libass \
+	--enable-libbluray \
+	--enable-libbs2b \
+	--enable-libcaca \
+	--enable-libcdio \
+	--enable-libflite \
+	--enable-libfontconfig \
+	--enable-libfreetype \
+	--enable-libfribidi \
+	--enable-libgme \
+	--enable-libgsm \
+	--enable-libmysofa \
+	--enable-libopenmpt \
+	--enable-librubberband \
+	--enable-librsvg \
+	--enable-libshine \
+	--enable-libsnappy \
+	--enable-libssh \
+	--enable-libtwolame \
+	--enable-libwavpack \
+	--enable-libxml2 \
+	--enable-libzmq \
+	--enable-libzvbi \
+	--enable-omx \
+	--enable-openal \
+	--enable-opengl \
+	--enable-sdl2 \
+	--enable-libdc1394 \
+	--enable-libdrm \
+	--enable-libiec61883 \
+	--enable-chromaprint \
+	--enable-frei0r \
+	--enable-libopencv \
 	--enable-libsrt \
 	--enable-libaom \
 	--enable-ladspa \

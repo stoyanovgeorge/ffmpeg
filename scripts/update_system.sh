@@ -5,31 +5,191 @@ sudo apt update
 sudo apt upgrade -y 
 sudo apt dist-upgrade -y
 sudo apt install \
-autoconf \
-automake \
-build-essential \
-fonts-dejavu-core \
-fontconfig-config \
-i965-va-driver \
-libtool \
-pkg-config \
-texinfo \
-yasm \
-libass-dev \
-mesa-vdpau-drivers \
-checkinstall \
-zlib1g-dev \
-libxvidcore-dev \
-libfontconfig1 \
-cmake \
-libsdl2-dev \
-ladspa-sdk \
-libsoxr-dev \
-libspeex-dev \
-python-dev \
-python-pip \
-python-tk \
-libssl-dev -y 
+	autoconf \
+	automake \
+	build-essential \
+	fonts-dejavu-core \
+	fontconfig-config \
+	i965-va-driver \
+	libtool \
+	pkg-config \
+	texinfo \
+	yasm \
+	libass-dev \
+	mesa-vdpau-drivers \
+	checkinstall \
+	zlib1g-dev \
+	libxvidcore-dev \
+	libfontconfig1 \
+	cmake \
+	libsdl2-2.0-0 \
+	libasound2 \ 
+	libasound2-data \
+	fontconfig \
+	libaacs0 \
+	libass9 \
+	libasyncns0 \
+	libavc1394-0 \
+	libavcodec57 \
+	libavdevice57 \
+	libavfilter6 \
+	libavformat57 \
+	libavresample3 \
+	libavutil55 \
+	libbdplus0 \
+	libbluray2 \
+	libbs2b0 \
+	libcaca0 \
+	libcairo2 \
+	libcdio-cdda2 \
+	libcdio-paranoia2 \
+	libcdio17 \
+	libchromaprint1 \
+	libcroco3 \
+	libcrystalhd3 \
+	libdatrie1 \
+	libdc1394-22 \
+	libdrm-amdgpu1 \
+	libdrm-intel1 \
+	libdrm-nouveau2 \
+	libdrm-radeon1 \
+	libegl-mesa0 \
+	libegl1 \
+	libfftw3-double3 \
+	libflac8 \
+	libflite1 \
+	libgbm1 \
+	libgdk-pixbuf2.0-0 \
+	libgdk-pixbuf2.0-bin \
+	libgdk-pixbuf2.0-common \
+	libgl1 \
+	libgl1-mesa-dri \
+	libglapi-mesa \
+	libglvnd0 \
+	libglx-mesa0 \
+	libglx0 \
+	libgme0 \
+	libgomp1 \
+	libgraphite2-3 \
+	libgsm1 \
+	libharfbuzz0b \
+	libiec61883-0 \
+	libjack-jackd2-0 \
+	libjbig0 \
+	libjpeg-turbo8 \
+	libjpeg8 \
+	libllvm6.0 \
+	libmp3lame0 \
+	libmpg123-0 \
+	libmysofa0 \
+	libnorm1 \
+	libogg0 \
+	libopenal-data \
+	libopenal1 \
+	libopenjp2-7 \
+	libopenmpt0 \
+	libopus0 \
+	libpango-1.0-0 \
+	libpangocairo-1.0-0 \
+	libpangoft2-1.0-0 \
+	libpciaccess0 \
+	libpgm-5.2-0 \
+	libpixman-1-0 \
+	libpostproc54 \
+	libpulse0 \
+	libraw1394-11 \
+	librsvg2-2 \
+	librsvg2-common \
+	librubberband2 \
+	libsamplerate0 \
+	libsdl2-2.0-0 \
+	libsensors4 \
+	libshine3 \
+	libsnappy1v5 \
+	libsndfile1 \
+	libsndio6.1 \
+	libsodium23 \
+	libsoxr0 \
+	libspeex1 \
+	libssh-gcrypt-4 \
+	libswresample2 \
+	libswscale4 \
+	libthai-data \
+	libthai0 \
+	libtheora0 \
+	libtiff5 \
+	libtwolame0 \
+	libva-drm2 \
+	libva-x11-2 \
+	libva2 \
+	libvdpau1 \
+	libvorbis0a \
+	libvorbisenc2 \
+	libvorbisfile3 \
+	libvpx5 \
+	libwavpack1 \
+	libwayland-client0 \
+	libwayland-cursor0 \
+	libwayland-egl1-mesa \
+	libwayland-server0 \
+	libwebp6 \
+	libwebpmux3 \
+	libx11-xcb1 \
+	libxcb-dri2-0 \
+	libxcb-dri3-0 \
+	libxcb-glx0 \
+	libxcb-present0 \
+	libxcb-render0 \
+	libxcb-shape0 \
+	libxcb-shm0 \
+	libxcb-sync1 \
+	libxcb-xfixes0 \
+	libxcursor1 \
+	libxdamage1 \
+	libxfixes3 \
+	libxi6 \
+	libxinerama1 \
+	libxkbcommon0 \
+	libxrandr2 \
+	libxrender1 \
+	libxshmfence1 \
+	libxss1 \
+	libxv1 \
+	libxvidcore4 \
+	libxxf86vm1 \
+	libzmq5 \
+	libzvbi-common \
+	libzvbi0 \
+	mesa-va-drivers \
+	va-driver-all \
+	vdpau-driver-all \
+	x11-common \
+	i965-va-driver-shaders \
+	libasound2-plugins \
+	alsa-utils \
+	libbluray-bdj \
+	firmware-crystalhd \
+	libfftw3-bin \
+	libfftw3-dev \
+	jackd2 \
+	libportaudio2 \
+	opus-tools \
+	pulseaudio \
+	libraw1394-doc \
+	librsvg2-bin \
+	lm-sensors \
+	sndiod \
+	speex \
+	libvdpau-va-gl1 \
+	nvidia-vdpau-driver \
+	# old
+	ladspa-sdk \
+	libsoxr-dev \
+	libspeex-dev \
+	python-dev \
+	python-pip \
+	python-tk \
+	libssl-dev -y 
 sudo apt clean -y 
 sudo apt autoremove -y 
 echo "End of the system update"
