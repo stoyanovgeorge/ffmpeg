@@ -4,6 +4,7 @@ PWD=`pwd`
 
 # Creating of install directory where we will download all the source packages
 mkdir $HOME/install
+mkdir -p $HOME/ffmpeg/bin
 
 # Start executing the scripts
 
