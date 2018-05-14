@@ -75,7 +75,6 @@ sudo apt install \
 	libgsm1 \
 	libharfbuzz0b \
 	libiec61883-0 \
-	libjack-jackd2-0 \
 	libjbig0 \
 	libjpeg-turbo8 \
 	libjpeg8 \
@@ -169,7 +168,6 @@ sudo apt install \
 	libbluray-bdj \
 	libfftw3-bin \
 	libfftw3-dev \
-	jackd2 \
 	libportaudio2 \
 	opus-tools \
 	pulseaudio \
