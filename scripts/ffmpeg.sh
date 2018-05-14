@@ -14,6 +14,7 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 	--bindir="$HOME/ffmpeg/bin" \
 	--toolchain=hardened \
 	--enable-gpl \
+	--enable-nonfree \
 	--disable-stripping \
 	--enable-avisynth \
 	--enable-gnutls \
