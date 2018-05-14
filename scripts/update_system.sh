@@ -23,10 +23,8 @@ libxvidcore-dev \
 libfontconfig1 \
 cmake \
 libsdl2-dev \
-libopenjpeg-dev \
 ladspa-sdk \
 libsoxr-dev \
-libschroedinger-dev \
 libspeex-dev \
 python-dev \
 python-pip \

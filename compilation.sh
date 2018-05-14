@@ -39,7 +39,7 @@ while true; do
     read -p "Do you wish to remove the install directory [Y/n]? " rmv
     rmv=${rmv,,}                                      # lower all the cases in the rmv variable
     case $rmv in
-        [y]* | "" ) rm -rf $HOME/install 
+        [y]* | "" ) rm -rf $HOME/ffmpeg/install 
 	echo "The install directory was successfully removed"; break;;     # check if the "rmv" var starts with the letter Y or for Enter key
         [n]* ) echo "The install directory won't be removed"; exit;;
         * ) echo "Please try again [Y/n]! ";;
