@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone https://github.com/ultravideo/kvazaar.git
-cd $HOME/ffmpeg/install/kvazaar
+cd kvazaar
 ./autogen.sh
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure --enable-static --prefix="$HOME/ffmpeg/install" --bindir="$HOME/ffmpeg/bin" --enable-pic
