@@ -165,7 +165,6 @@ sudo apt install \
 	va-driver-all \
 	vdpau-driver-all \
 	x11-common \
-	i965-va-driver-shaders \
 	alsa-utils \
 	libbluray-bdj \
 	libfftw3-bin \
