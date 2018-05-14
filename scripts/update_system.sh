@@ -168,7 +168,6 @@ sudo apt install \
 	i965-va-driver-shaders \
 	alsa-utils \
 	libbluray-bdj \
-	firmware-crystalhd \
 	libfftw3-bin \
 	libfftw3-dev \
 	jackd2 \
@@ -181,7 +180,6 @@ sudo apt install \
 	sndiod \
 	speex \
 	libvdpau-va-gl1 \
-	nvidia-vdpau-driver \
 	ladspa-sdk \
 	libsoxr-dev \
 	libspeex-dev \
