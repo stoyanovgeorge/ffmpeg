@@ -1,9 +1,8 @@
 #!/bin/bash
 
-mkdir $HOME/install
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone https://github.com/cyrillos/nasm.git 
-cd $HOME/install/nasm
+cd nasm
 sh autogen.sh
 sh configure
 make

@@ -1,12 +1,10 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/install
+cd $HOME/ffmpeg/install
 git clone https://github.com/uclouvain/openjpeg.git
-cd $HOME/install/openjpeg
-mkdir build
-cd $HOME/install/openjpeg/build
-cmake ..
+mkdir -p openjpeg/openjpeg_build
+cd openjpeg/opengpeg_build
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$HOME/ffmpeg/install" -DENABLE_SHARED=off ..
 make
 sudo make install
 sudo ldconfig

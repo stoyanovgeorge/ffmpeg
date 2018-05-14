@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cd $HOME/install
-git clone git://git.opus-codec.org/opus.git
-cd $HOME/install/opus
-./autogen.sh
+cd $HOME/ffmpeg/install
+git clone https://github.com/Haivision/srt.git
+cd srt 
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
+PATH="$HOME/ffmpeg/bin:$PATH"
 make
 sudo make install
 make distclean
