@@ -8,7 +8,7 @@ mkdir -p $HOME/ffmpeg/bin $HOME/ffmpeg/lib/pkgconfig $HOME/ffmpeg/install/logs
 # Start executing the scripts
 
 echo "System Update is started..."
-sh $PWD/scripts/update_system.sh
+sh $PWD/scripts/update_system.sh 2> $HOME/ffmpeg/install/logs/sysupdate.log
 echo "Update of the system had finished"
 echo "Start Compilation of the libs needed for ffmpeg..."
 sh $PWD/scripts/nasm.sh 2> $HOME/ffmpeg/install/logs/nasm.log
