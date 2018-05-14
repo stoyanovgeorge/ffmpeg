@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/uclouvain/openjpeg.git
 mkdir -p openjpeg/openjpeg_build
 cd openjpeg/opengpeg_build

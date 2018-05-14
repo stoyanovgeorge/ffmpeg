@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/ultravideo/kvazaar.git
 cd kvazaar
 ./autogen.sh

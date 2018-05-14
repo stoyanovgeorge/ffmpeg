@@ -1,9 +1,9 @@
 #/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/cisco/openh264.git 
 cd openh264
+PATH="$HOME/ffmpeg/bin:$PATH"
 make 
 sudo make install
 make clean

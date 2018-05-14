@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/videolan/x265.git
 cd x265/build/linux
 ./make-Makefiles.bash

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
 tar xvfz ffmpeg-4.0.tar.bz2
 cd $HOME/ffmpeg/install/ffmpeg-4.0

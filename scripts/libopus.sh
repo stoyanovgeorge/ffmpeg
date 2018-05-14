@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone git://git.opus-codec.org/opus.git
 cd opus
 ./autogen.sh

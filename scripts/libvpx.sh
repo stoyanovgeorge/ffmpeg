@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#mkdir $HOME/install
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/webmproject/libvpx.git 
 cd libvpx
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"

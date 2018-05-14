@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/install
+cd $HOME/ffmpeg/downloads
 git clone https://github.com/gypified/libmp3lame.git
 cd libmp3lame
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
