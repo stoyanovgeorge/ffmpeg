@@ -16,7 +16,6 @@ sudo apt install \
 	texinfo \
 	yasm \
 	libass-dev \
-	mesa-vdpau-drivers \
 	checkinstall \
 	zlib1g-dev \
 	libxvidcore-dev \
@@ -111,12 +110,10 @@ sudo apt install \
 	libwavpack1 \
 	libwayland-client0 \
 	libwayland-cursor0 \
-	libwayland-egl1-mesa \
 	libwayland-server0 \
 	libx11-xcb1 \
 	libxcb-dri2-0 \
 	libxcb-dri3-0 \
-	libxcb-glx0 \
 	libxcb-present0 \
 	libxcb-render0 \
 	libxcb-shape0 \
@@ -139,9 +136,6 @@ sudo apt install \
 	libzmq5 \
 	libzvbi-common \
 	libzvbi0 \
-	mesa-va-drivers \
-	va-driver-all \
-	vdpau-driver-all \
 	x11-common \
 	alsa-utils \
 	libbluray-bdj \
