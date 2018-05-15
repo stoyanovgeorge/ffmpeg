@@ -74,7 +74,6 @@ sudo apt install \
 	libgraphite2-3 \
 	libgsm1 \
 	libharfbuzz0b \
-	libiec61883-0 \
 	libjbig0 \
 	libjpeg-turbo8 \
 	libjpeg8 \
@@ -97,6 +96,24 @@ sudo apt install \
 	libpixman-1-0 \
 	libpostproc54 \
 	libpulse0 \
+	libdrm-dev \
+	libfdk-aac-dev \
+	libgme-dev \
+	libgsm1-dev \
+	libmp3lame-dev \
+	libmysofa-dev \
+	libopenjp2-dev \
+	libopenmpt-dev \
+	libopus-dev \
+	libpulse-dev \
+	rubberband-dev \
+	libshine-dev \
+	libsnappy-dev \
+	libssh-dev \
+	libtheora-dev \
+	libtwolame-dev \
+	libvpx-dev \
+	libwavpack-dev \
 	libraw1394-11 \
 	librsvg2-2 \
 	librsvg2-common \
@@ -170,6 +187,8 @@ sudo apt install \
 	libfftw3-dev \
 	libportaudio2 \
 	opus-tools \
+	frei0r-plugins-dev \
+	tcl \
 	pulseaudio \
 	libraw1394-doc \
 	librsvg2-bin \
