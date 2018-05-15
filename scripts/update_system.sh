@@ -47,8 +47,6 @@ sudo apt install \
 	libflite1 \
 	libgbm1 \
 	libgl1 \
-	libgl1-mesa-dri \
-	libglapi-mesa \
 	libgme0 \
 	libgomp1 \
 	libgraphite2-3 \
