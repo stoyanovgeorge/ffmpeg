@@ -58,7 +58,9 @@ sudo apt install \
 	libogg0 \
 	libopenal-data \
 	libopenal1 \
-	libopenjp2-7 \
+	libopenjp2-7-dev \
+	libwebp-dev \
+	libzvbi-dev \
 	libopus0 \
 	libpango-1.0-0 \
 	libpangocairo-1.0-0 \
@@ -88,6 +90,7 @@ sudo apt install \
 	librsvg2-common \
 	libsamplerate0 \
 	libsdl2-2.0-0 \
+	libsdl2-dev \
 	libsensors4 \
 	libshine3 \
 	libsnappy1v5 \

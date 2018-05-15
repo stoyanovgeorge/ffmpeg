@@ -15,7 +15,7 @@ echo "Start Compilation of the libs needed for ffmpeg..."
 # sh $PWD/scripts/kvazaar.sh 2> $HOME/ffmpeg/logs/kvazaar.log
 # sh $PWD/scripts/libfdk-aac.sh 2> $HOME/ffmpeg/logs/libfdk-aac.log
 sh $PWD/scripts/ogg.sh 2> $HOME/ffmpeg/logs/ogg.log
-# sh $PWD/scripts/libvorbis.sh 2> $HOME/ffmpeg/logs/libvorbis.log
+sh $PWD/scripts/libvorbis.sh 2> $HOME/ffmpeg/logs/libvorbis.log
 # sh $PWD/scripts/libopenjpeg.sh 2> $HOME/ffmpeg/logs/libopenjpeg.log
 # sh $PWD/scripts/libmp3lame.sh 2> $HOME/ffmpeg/logs/libmp3lame.log
 # sh $PWD/scripts/libopus.sh 2> $HOME/ffmpeg/logs/libopus.log

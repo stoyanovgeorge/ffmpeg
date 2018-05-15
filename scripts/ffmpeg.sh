@@ -24,15 +24,12 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
         --enable-libfribidi \
         --enable-libgme \
         --enable-libgsm \
-        --enable-libmysofa \
-        --enable-libopenmpt \
         --enable-librubberband \
         --enable-libshine \
         --enable-libsnappy \
         --enable-libssh \
         --enable-libtwolame \
         --enable-libwavpack \
-        --enable-libxml2 \
         --enable-libzvbi \
         --enable-openal \
         --enable-sdl2 \
@@ -63,5 +60,5 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
         --enable-openssl
 PATH="$HOME/ffmpeg/bin:$PATH" make
 sudo make install
-make distclean
+sudo make distclean
 source ~/.profile
