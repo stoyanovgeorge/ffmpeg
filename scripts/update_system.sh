@@ -45,7 +45,6 @@ sudo apt install \
 	libflac8 \
 	libflite1 \
 	libgbm1 \
-	libgl1 \
 	libgme0 \
 	libgomp1 \
 	libgraphite2-3 \
