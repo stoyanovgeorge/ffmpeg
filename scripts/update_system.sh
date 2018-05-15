@@ -72,7 +72,6 @@ sudo apt install \
 	libgme-dev \
 	libgsm1-dev \
 	libmp3lame-dev \
-	libopenmpt-dev \
 	libopus-dev \
 	libpulse-dev \
 	librubberband-dev \
