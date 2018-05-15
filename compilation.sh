@@ -26,8 +26,8 @@ sh $PWD/scripts/libx264.sh 2> $HOME/ffmpeg/logs/libx264.log
 sh $PWD/scripts/libx265.sh 2> $HOME/ffmpeg/logs/libx265.log
 sh $PWD/scripts/vidstab.sh 2> $HOME/ffmpeg/logs/vidstab.log
 sh $PWD/scripts/openh264.sh 2> $HOME/ffmpeg/logs/openh264.log
-# sh $PWD/scripts/libaom.sh 2> $HOME/ffmpeg/logs/libaom.log
-# sh $PWD/scripts/libsrt.sh 2> $HOME/ffmpeg/logs/libsrt.log
+sh $PWD/scripts/libaom.sh 2> $HOME/ffmpeg/logs/libaom.log
+sh $PWD/scripts/libsrt.sh 2> $HOME/ffmpeg/logs/libsrt.log
 echo "All required libs had been installed"
 echo "Start compilation of ffmpeg"
 sh $PWD/scripts/ffmpeg.sh 2> $HOME/ffmpeg/logs/ffmpeg.log
