@@ -28,24 +28,12 @@ sudo apt install \
 	libasound2-plugins \
 	fontconfig \
 	libaacs0 \
-	libass9 \
 	libasyncns0 \
 	libavc1394-0 \
-	libavcodec57 \
-	libavdevice57 \
-	libavfilter6 \
-	libavformat57 \
-	libavresample3 \
-	libavutil55 \
 	libbdplus0 \
-	libbluray2 \
 	libbs2b0 \
 	libcaca0 \
 	libcairo2 \
-	libcdio-cdda2 \
-	libcdio-paranoia2 \
-	libcdio17 \
-	libchromaprint1 \
 	libcroco3 \
 	libcrystalhd3 \
 	libdatrie1 \
@@ -54,21 +42,13 @@ sudo apt install \
 	libdrm-intel1 \
 	libdrm-nouveau2 \
 	libdrm-radeon1 \
-	libegl-mesa0 \
-	libegl1 \
 	libfftw3-double3 \
 	libflac8 \
 	libflite1 \
 	libgbm1 \
-	libgdk-pixbuf2.0-0 \
-	libgdk-pixbuf2.0-bin \
-	libgdk-pixbuf2.0-common \
 	libgl1 \
 	libgl1-mesa-dri \
 	libglapi-mesa \
-	libglvnd0 \
-	libglx-mesa0 \
-	libglx0 \
 	libgme0 \
 	libgomp1 \
 	libgraphite2-3 \
@@ -77,16 +57,12 @@ sudo apt install \
 	libjbig0 \
 	libjpeg-turbo8 \
 	libjpeg8 \
-	libllvm6.0 \
 	libmp3lame0 \
 	libmpg123-0 \
-	libmysofa0 \
-	libnorm1 \
 	libogg0 \
 	libopenal-data \
 	libopenal1 \
 	libopenjp2-7 \
-	libopenmpt0 \
 	libopus0 \
 	libpango-1.0-0 \
 	libpangocairo-1.0-0 \
@@ -94,19 +70,16 @@ sudo apt install \
 	libpciaccess0 \
 	libpgm-5.2-0 \
 	libpixman-1-0 \
-	libpostproc54 \
 	libpulse0 \
 	libdrm-dev \
 	libfdk-aac-dev \
 	libgme-dev \
 	libgsm1-dev \
 	libmp3lame-dev \
-	libmysofa-dev \
-	libopenjp2-dev \
 	libopenmpt-dev \
 	libopus-dev \
 	libpulse-dev \
-	rubberband-dev \
+	librubberband-dev \
 	libshine-dev \
 	libsnappy-dev \
 	libssh-dev \
@@ -114,10 +87,10 @@ sudo apt install \
 	libtwolame-dev \
 	libvpx-dev \
 	libwavpack-dev \
+	nasm \
 	libraw1394-11 \
 	librsvg2-2 \
 	librsvg2-common \
-	librubberband2 \
 	libsamplerate0 \
 	libsdl2-2.0-0 \
 	libsensors4 \
@@ -125,32 +98,23 @@ sudo apt install \
 	libsnappy1v5 \
 	libsndfile1 \
 	libsndio6.1 \
-	libsodium23 \
 	libsoxr0 \
 	libspeex1 \
 	libssh-gcrypt-4 \
-	libswresample2 \
-	libswscale4 \
 	libthai-data \
 	libthai0 \
 	libtheora0 \
 	libtiff5 \
 	libtwolame0 \
-	libva-drm2 \
-	libva-x11-2 \
-	libva2 \
 	libvdpau1 \
 	libvorbis0a \
 	libvorbisenc2 \
 	libvorbisfile3 \
-	libvpx5 \
 	libwavpack1 \
 	libwayland-client0 \
 	libwayland-cursor0 \
 	libwayland-egl1-mesa \
 	libwayland-server0 \
-	libwebp6 \
-	libwebpmux3 \
 	libx11-xcb1 \
 	libxcb-dri2-0 \
 	libxcb-dri3-0 \
