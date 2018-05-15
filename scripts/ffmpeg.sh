@@ -3,6 +3,7 @@
 cd $HOME/ffmpeg/downloads
 wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
 tar xjvf ffmpeg-4.0.tar.bz2
+rm ffmpeg-4.0.tar.bz2
 cd ffmpeg-4.0
 PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure \
@@ -17,7 +18,6 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 	--enable-nonfree \
 	--disable-stripping \
 	--enable-avisynth \
-	--enable-gnutls \
 	--enable-libass \
 	--enable-libbluray \
 	--enable-libbs2b \
