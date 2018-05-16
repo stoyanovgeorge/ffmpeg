@@ -4,8 +4,7 @@ cd $HOME/ffmpeg/downloads
 git clone https://github.com/webmproject/libwebp.git
 cd libwebp
 ./autogen.sh
-PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
-./configure --enable-static --prefix="$HOME/ffmpeg/install" --bindir="$HOME/ffmpeg/bin"
-make 
+./configure --enable-static 
+make -j$cpu_cnt 
 sudo make install
 make distclean 

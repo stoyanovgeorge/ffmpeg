@@ -5,7 +5,6 @@ wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
 tar xjvf ffmpeg-4.0.tar.bz2
 rm ffmpeg-4.0.tar.bz2
 cd ffmpeg-4.0
-PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
 ./configure \
         --prefix="$HOME/ffmpeg" \
         --pkg-config-flags="--static" \
@@ -59,7 +58,7 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
         --enable-libopenh264 \
         --enable-zlib \
         --enable-openssl
-PATH="$HOME/ffmpeg/bin:$PATH" make
+make -j$cpu_cnt
 sudo make install
 sudo make distclean
 source ~/.profile
