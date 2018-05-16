@@ -10,7 +10,6 @@ sudo apt install \
 	build-essential \
 	fonts-dejavu-core \
 	fontconfig-config \
-	i965-va-driver \
 	libtool \
 	pkg-config \
 	texinfo \
@@ -21,14 +20,12 @@ sudo apt install \
 	libxvidcore-dev \
 	libfontconfig1 \
 	cmake \
-	libsdl2-2.0-0 \
         libasound2 \
 	libasound2-data \
 	libasound2-plugins \
 	fontconfig \
 	libaacs0 \
 	libasyncns0 \
-	libavc1394-0 \
 	libbdplus0 \
 	libbs2b0 \
 	libcaca0 \
@@ -36,7 +33,6 @@ sudo apt install \
 	libcroco3 \
 	libcrystalhd3 \
 	libdatrie1 \
-	libdc1394-22 \
 	libdrm-amdgpu1 \
 	libdrm-intel1 \
 	libdrm-nouveau2 \
@@ -54,7 +50,6 @@ sudo apt install \
 	libjpeg-turbo8 \
 	libjpeg8 \
 	libmp3lame0 \
-	libmpg123-0 \
 	libogg0 \
 	libopenal-dev \
 	libopenjp2-7-dev \
@@ -85,15 +80,11 @@ sudo apt install \
 	libwavpack-dev \
 	libraw1394-11 \
 	librsvg2-2 \
-	librsvg2-common \
 	libsamplerate0 \
-	libsdl2-2.0-0 \
 	libsdl2-dev \
 	libsensors4 \
 	libshine3 \
-	libsnappy1v5 \
 	libsndfile1 \
-	libsndio6.1 \
 	libsoxr0 \
 	libspeex1 \
 	libssh-gcrypt-4 \
@@ -145,7 +136,6 @@ sudo apt install \
 	frei0r-plugins-dev \
 	tcl \
 	pulseaudio \
-	libraw1394-doc \
 	librsvg2-bin \
 	lm-sensors \
 	sndiod \
