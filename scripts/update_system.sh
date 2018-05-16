@@ -56,8 +56,7 @@ sudo apt install \
 	libmp3lame0 \
 	libmpg123-0 \
 	libogg0 \
-	libopenal-data \
-	libopenal1 \
+	libopenal-dev \
 	libopenjp2-7-dev \
 	libwebp-dev \
 	libzvbi-dev \
