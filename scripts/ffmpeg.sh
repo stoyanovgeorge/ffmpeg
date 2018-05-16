@@ -52,6 +52,7 @@ PATH="$HOME/ffmpeg/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg/lib/pkgconfig"
         --enable-libx265 \
         --disable-ffplay \
         --enable-libopenjpeg \
+	--enable-srt \
         --enable-libwebp \
         --enable-libxvid \
         --enable-libvidstab \
