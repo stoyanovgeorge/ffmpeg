@@ -100,7 +100,7 @@ And in the [ffmpeg.sh](https://github.com/stoyanovgeorge/ffmpeg/blob/master/scri
 
 ### Bugs and Missing Features
 
-	* Currently I am unable to compile the AV1 video codec from source. 
+1. Currently I am unable to compile the AV1 video codec from source. 
 
 Please use [Github Issues](https://github.com/stoyanovgeorge/ffmpeg/issues "Github Issues") in case you spot a bug or have an idea how to optimize the scripts. 
 
