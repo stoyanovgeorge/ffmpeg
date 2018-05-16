@@ -51,7 +51,7 @@ cd ffmpeg-4.0
         --enable-libx265 \
         --disable-ffplay \
         --enable-libopenjpeg \
-	--enable-srt \
+	--enable-libsrt \
         --enable-libwebp \
         --enable-libxvid \
         --enable-libvidstab \
