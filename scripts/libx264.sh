@@ -5,5 +5,5 @@ git -C x264 pull 2> /dev/null || git clone --depth 1 https://git.videolan.org/gi
 cd x264 
 ./configure --enable-static --enable-pic
 make -j$cpu_cnt
-sudo ake install
+sudo make install
 make distclean
