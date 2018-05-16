@@ -84,7 +84,6 @@ sudo apt install \
 	libtwolame-dev \
 	libvpx-dev \
 	libwavpack-dev \
-	nasm \
 	libraw1394-11 \
 	librsvg2-2 \
 	librsvg2-common \
