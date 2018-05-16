@@ -3,7 +3,7 @@
 PWD=`pwd`
 
 # Creating of install, bin and package config directories where we will download all the source packages, install them and link the package config
-mkdir -p $HOME/ffmpeg/bin $HOME/ffmpeg/lib/pkgconfig $HOME/ffmpeg/logs $HOME/ffmpeg/downloads
+mkdir -p $HOME/ffmpeg/logs $HOME/ffmpeg/downloads
 
 # Defining the CPU cores count to optimize the compilation
 cpu_cnt="$(nproc --all)"

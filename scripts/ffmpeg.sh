@@ -6,7 +6,6 @@ tar xjvf ffmpeg-4.0.tar.bz2
 rm ffmpeg-4.0.tar.bz2
 cd ffmpeg-4.0
 ./configure \
-        --prefix="$HOME/ffmpeg" \
         --pkg-config-flags="--static" \
         --extra-libs="-lpthread -lm" \
         --toolchain=hardened \
