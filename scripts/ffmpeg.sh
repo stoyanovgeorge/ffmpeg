@@ -8,10 +8,7 @@ cd ffmpeg-4.0
 ./configure \
         --prefix="$HOME/ffmpeg" \
         --pkg-config-flags="--static" \
-        --extra-cflags="-I$HOME/ffmpeg/include" \
-        --extra-ldflags="-L$HOME/ffmpeg/lib" \
         --extra-libs="-lpthread -lm" \
-        --bindir="$HOME/ffmpeg/bin" \
         --toolchain=hardened \
         --enable-gpl \
         --enable-nonfree \
