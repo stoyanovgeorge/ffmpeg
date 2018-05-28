@@ -7,7 +7,7 @@ Automated scripts for compilation of [FFMPEG v.4.0](https://ffmpeg.org/ "FFMPEG 
 ```
 ffmpeg version 4.0 Copyright (c) 2000-2018 the FFmpeg developers
   built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 20160609
-  configuration: --pkg-config-flags=--static --extra-libs='-lpthread -lm' --toolchain=hardened --enable-gpl --enable-nonfree --disable-stripping --enable-avisynth --enable-libass --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-librubberband --enable-libshine --enable-libsnappy --enable-libssh --enable-libtwolame --enable-libwavpack --enable-libzvbi --enable-openal --enable-sdl2 --enable-libdrm --enable-frei0r --enable-ladspa --enable-libpulse --enable-libsoxr --enable-libspeex --enable-avfilter --enable-postproc --enable-pthreads --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --disable-ffplay --enable-libopenjpeg --enable-libsrt --enable-libwebp --enable-libxvid --enable-libvidstab --enable-libopenh264 --enable-zlib --enable-openssl
+  configuration: --pkg-config-flags=--static --extra-libs='-lpthread -lm' --toolchain=hardened --enable-gpl --enable-version3 --enable-nonfree --disable-stripping --enable-avisynth --enable-libvmaf --enable-libass --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-librubberband --enable-libshine --enable-libsnappy --enable-libssh --enable-libtwolame --enable-libwavpack --enable-libzvbi --enable-openal --enable-sdl2 --enable-libdrm --enable-frei0r --enable-ladspa --enable-libpulse --enable-libsoxr --enable-libspeex --enable-avfilter --enable-postproc --enable-pthreads --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --disable-ffplay --enable-libopenjpeg --enable-libsrt --enable-libwebp --enable-libxvid --enable-libvidstab --enable-libopenh264 --enable-zlib --enable-openssl
   libavutil      56. 14.100 / 56. 14.100
   libavcodec     58. 18.100 / 58. 18.100
   libavformat    58. 12.100 / 58. 12.100
@@ -47,6 +47,8 @@ The following libraries are also installed from source:
 
 5. Container Formats:
 	* [Ogg](https://www.xiph.org/ogg/ "Ogg Container Format") - Ogg is a free, open container format maintained by the Xiph.Org Foundation.
+6. Filters
+	* [VMAF](https://github.com/Netflix/vmaf "VMAF Github Page") - VMAF is a perceptual video quality assessment algorithm developed by Netflix
 
 
 ### Usage Examples
@@ -92,4 +94,5 @@ Please use [Github Issues](https://github.com/stoyanovgeorge/ffmpeg/issues "Gith
 * [VP9 Compression Guide](https://sites.google.com/a/webmproject.org/wiki/ffmpeg/vp9-encoding-guide "VP9 Compression Guide")
 * [VP9 vs. H.264 vs. H.265 Comparison](https://blogs.gnome.org/rbultje/2015/09/28/vp9-encodingdecoding-performance-vs-hevch-264/ "VP9 vs. H.264 vs. H.265")
 * [VP9 Encoder Parameters](https://www.webmproject.org/docs/encoder-parameters/ "VP9 Encoder Parameters")
+* [VMAF](https://github.com/Netflix/vmaf "VMAF Github Page")
 
