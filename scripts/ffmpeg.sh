@@ -16,7 +16,8 @@ cd ffmpeg-4.0
         --enable-libass \
         --enable-libfontconfig \
         --enable-libfreetype \
-        --enable-libfribidi \
+        --enable-libvmaf \
+       	--enable-libfribidi \
         --enable-libgme \
         --enable-libgsm \
         --enable-librubberband \
