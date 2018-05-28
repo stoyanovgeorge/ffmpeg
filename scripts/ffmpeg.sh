@@ -11,6 +11,7 @@ cd ffmpeg-4.0
         --toolchain=hardened \
         --enable-gpl \
         --enable-nonfree \
+	--enable-version3 \
         --disable-stripping \
         --enable-avisynth \
         --enable-libass \
