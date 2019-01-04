@@ -8,6 +8,7 @@ sudo apt install \
 	autoconf \
 	automake \
 	build-essential \
+	nasm \
 	fonts-dejavu-core \
 	fontconfig-config \
 	libtool \
