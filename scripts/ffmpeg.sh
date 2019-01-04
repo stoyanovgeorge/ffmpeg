@@ -1,10 +1,10 @@
 #!/bin/bash
 
 cd $HOME/ffmpeg/downloads
-wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
-tar xjvf ffmpeg-4.0.tar.bz2
-rm ffmpeg-4.0.tar.bz2
-cd ffmpeg-4.0
+wget https://ffmpeg.org/releases/ffmpeg-4.1.tar.bz2
+tar xjvf ffmpeg-4.1.tar.bz2
+rm ffmpeg-4.1.tar.bz2
+cd ffmpeg-4.1
 ./configure \
         --pkg-config-flags="--static" \
         --extra-libs="-lpthread -lm" \
