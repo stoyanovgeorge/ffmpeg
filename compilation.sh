@@ -12,7 +12,7 @@ export cpu_cnt
 # Start executing the scripts
 
 echo "System Update is started..."
-sh $PWD/scripts/update_system.sh 2> $HOME/ffmpeg/logs/sysupdate.log
+# sh $PWD/scripts/update_system.sh 2> $HOME/ffmpeg/logs/sysupdate.log
 echo "Update of the system had finished"
 echo "Start Compilation of the libs needed for ffmpeg..."
 sh $PWD/scripts/nasm.sh 2> $HOME/ffmpeg/logs/nasm.log
