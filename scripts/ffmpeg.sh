@@ -19,6 +19,7 @@ cd ffmpeg-4.1
         --enable-libfreetype \
        	--enable-libfribidi \
         --enable-libgme \
+	--enable-libvmaf \
         --enable-libgsm \
         --enable-librubberband \
         --enable-libshine \
