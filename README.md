@@ -37,7 +37,7 @@ The following libraries are also installed from source:
 	* [vid.stab](http://public.hronopik.de/vid.stab/ "vid.stab Video Plugin") - vid.stab provides a reasonably easy and flexible way to stabilize (deshake) even strongly jiggled video clips.
 
 3. Transport Protocols
-	* [SRT](https://www.srtalliance.org/) - Secure Reliable Transport (SRT) is a proprietary transport technology that optimizes streaming performance across unpredictable networks, such as the Internet.
+	* [SRT](https://www.srtalliance.org/) - Secure Reliable Transport (SRT) is an open source video transport protocol and technology stack that optimizes streaming performance across unpredictable networks with secure streams and easy firewall traversal, bringing the best quality live video over the worst networks. 
 
 4. Audio Codecs:
 	* [FDK-AAC](https://www.iis.fraunhofer.de/en/ff/amm/impl.html "FDK-AAC Codec") - Fraunhofer's FDK AAC code provides a complete, high-quality audio compression.
