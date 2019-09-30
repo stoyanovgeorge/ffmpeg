@@ -1,10 +1,21 @@
 #!/bin/bash
 
-cd $HOME/ffmpeg/downloads
-wget https://ffmpeg.org/releases/ffmpeg-4.1.tar.bz2
-tar xjvf ffmpeg-4.1.tar.bz2
-rm ffmpeg-4.1.tar.bz2
-cd ffmpeg-4.1
+
+# Download link for the latest ffmpeg version.
+url="http://ffmpeg.org/releases/ffmpeg-4.2.tar.bz2"
+# Finding out the name of the directory
+dirname=$(basename "$url" .tar.bz2)
+
+# Download of the latest ffmpeg version
+cd "$HOME/ffmpeg/downloads" || exit
+wget "$url"
+# Extraction of the latest ffmpeg package
+tar xjvf ffmpeg-*.tar.bz2
+# Removal of the tar.bz2 package
+rm ffmpeg-*.tar.bz2
+cd "$dirname" || exit
+
+# FFMPEG Compilation
 ./configure \
         --pkg-config-flags="--static" \
         --extra-libs="-lpthread -lm" \
